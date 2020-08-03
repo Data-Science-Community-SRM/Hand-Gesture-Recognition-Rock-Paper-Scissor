@@ -1,2 +1,2 @@
-Flask web app.
+Web application using Flask-
 Run app.py
