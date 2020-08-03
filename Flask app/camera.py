@@ -11,7 +11,6 @@ import numpy as np
 import time
 
 model = tf.keras.models.load_model('static\\Model_4_classes.h5')
-ds_factor=0.6
 
 class VideoCamera(object):
 
