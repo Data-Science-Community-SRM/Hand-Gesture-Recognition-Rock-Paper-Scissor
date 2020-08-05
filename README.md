@@ -50,7 +50,7 @@ For example:
 
 **Note:**
 
-- The software requirements are listed in the _requirements.txt_ file.
+- The software requirements are listed in the [requirements.txt](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/requirements.txt) file.
 
 ### Pull Requests
 
