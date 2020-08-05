@@ -9,9 +9,13 @@
 
 - The final trained model resulted in an accuracy of 97.05% on the test set with 237 images.
 
-- [Plot of training and validation accuracy versus the number of epochs.](https://drive.google.com/file/d/1icTGo5AldnyNEkTA-ejK2UIKDOVHnYJD/view?usp=sharing)
+- Plot of training and validation accuracy versus the number of epochs
 
-- [Plot of training and validation loss versus the number of epochs.](https://drive.google.com/file/d/14EKIrOiv1DzNoDQWFEBZ5daXIuKBsPUI/view?usp=sharing)
+<img src="images\dataset-final4th-inception-accuracy.png">
+
+- Plot of training and validation loss versus the number of epochs
+
+<img src="images\dataset-final4th-inception-loss.png">
 
 ## Visualizing the model 👀
 
