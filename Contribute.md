@@ -1,4 +1,4 @@
-# Contributing
+# Contribute 👩👨🧑👧
 
 Thank you for taking your time to contribute to this project to make it better. Contributing is also a great way to learn more about social coding on Github, new technologies and and their ecosystems and how to make constructive, helpful bug reports, feature requests and the noblest of all contributions: a good, clean pull request.
 How to make a clean pull request
