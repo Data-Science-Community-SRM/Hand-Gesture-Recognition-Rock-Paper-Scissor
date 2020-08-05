@@ -11,11 +11,11 @@
 
 - Plot of training and validation accuracy versus the number of epochs
 
-<img src="images\dataset-final4th-inception-accuracy.png">
+<img src="dataset-final4th-inception-accuracy.png">
 
 - Plot of training and validation loss versus the number of epochs
 
-<img src="images\dataset-final4th-inception-loss.png">
+<img src="dataset-final4th-inception-loss.png">
 
 ## Visualizing the model 👀
 
