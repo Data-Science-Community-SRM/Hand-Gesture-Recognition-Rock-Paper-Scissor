@@ -13,7 +13,7 @@
 
 - [Plot of training and validation loss versus the number of epochs.](https://drive.google.com/file/d/14EKIrOiv1DzNoDQWFEBZ5daXIuKBsPUI/view?usp=sharing)
 
-## Visualizing the model
+## Visualizing the model 👀
 
 - The model can be visualized using the file Visualize_4_classes.py.
 
