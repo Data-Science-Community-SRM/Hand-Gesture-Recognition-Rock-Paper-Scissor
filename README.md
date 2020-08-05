@@ -9,13 +9,13 @@
 
 - The final trained model resulted in an accuracy of 97.05% on the test set with 237 images.
 
-- Plot of training and validation accuracy versus the number of epochs
+- Plot of training and validation accuracy versus the number of epochs:
 
-<img src="dataset-final4th-inception-accuracy.png">
+![Plot of training and validation accuracy versus the number of epochs.](Graphs_Results/accuracy_vs_epochs.png)
 
-- Plot of training and validation loss versus the number of epochs
+- Plot of training and validation loss versus the number of epochs:
 
-<img src="dataset-final4th-inception-loss.png">
+![Plot of training and validation loss versus the number of epochs.](Graphs_Results/loss_vs_epochs.png)
 
 ## Visualizing the model 👀
 
@@ -26,6 +26,11 @@
 - Each frame is flipped, resized to 150x150 and then normalized before feeding into the network to make a prediction. 
 
 - The program can be quit by hitting ‘Q’.
+
+- Output:
+<p align="center">
+  <img src="Graphs_Results/screen_recording.gif" alt="screen recording of output" width="576" height="324">
+</p>
 
 ## Contribute 👨‍👨‍👧‍👦
 
@@ -47,7 +52,7 @@ For example:
 
 ⚫ The expected behavior (or what is wrong)
 
-⚫Screenshots for issues
+⚫ Screenshots for issues
 
 ⚫ The operating system.
 
