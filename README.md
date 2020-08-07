@@ -32,6 +32,22 @@
   <img src="Graphs_Results/screen_recording.gif" alt="screen recording of output" width="576" height="324">
 </p>
 
+## Deployment of Hand-Gesture-Recognition model
+
+https://rps-streamlit-app.herokuapp.com/
+
+- The h5 weights file of the Inception v3 model has been integrated as a [Streamlit app](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Streamlit%20App/app.py) 
+
+- The Streamlit app was deployed on Heroku PaaS
+
+## Recognising Rock🌍,Paper📜 and Scissors✂ 
+
+- Browse images from your system and try out the image recognition model!
+
+<img src="">
+<img src="">
+<img src="">
+
 ## Contribute 👨‍👨‍👧‍👦
 
 Thanks for taking the time to contribute!
