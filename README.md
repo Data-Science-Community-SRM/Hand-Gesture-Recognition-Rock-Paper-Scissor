@@ -27,6 +27,9 @@
 
 - The program can be quit by hitting ‘Q’.
 
+**Note**
+- Use the model on a plain background for best results.
+
 - Output:
 <p align="center">
   <img src="Graphs_Results/screen_recording.gif" alt="screen recording of output" width="576" height="324">
@@ -40,13 +43,19 @@ https://rps-streamlit-app.herokuapp.com/
 
 - The Streamlit app was deployed on Heroku PaaS
 
-## Recognising Rock🌍,Paper📜 and Scissors✂ 
+## Recognising Rock🌍, Paper📜 and Scissors✂ 
 
-- Browse images from your system and try out the image recognition model!
+Browse images from your system and try out the image recognition model! 
 
-<img src="Graphs_Results/demo2.png">
-<img src="Graphs_Results/demo1.png">
-<img src="Graphs_Results/demo3.png">
+<p align="center">
+  <img src="Graphs_Results/demo2.png" alt="Web app output #1" width="593" height="598">
+</p>
+<p align="center">
+  <img src="Graphs_Results/demo1.png" alt="Web app output #2" width="593" height="598">
+</p>
+<p align="center">
+  <img src="Graphs_Results/demo3.png" alt="Web app output #3" width="593" height="598">
+</p>
 
 ## Contribute 👨‍👨‍👧‍👦
 
