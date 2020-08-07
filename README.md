@@ -56,6 +56,9 @@ Browse images from your system and try out the image recognition model!
 <p align="center">
   <img src="Graphs_Results/demo3.png" alt="Web app output #3" width="593" height="598">
 </p>
+<p align="center">
+  <img src="Graphs_Results/demo4.png" alt="Web app output #4" width="593" height="598">
+</p>
 
 ## Contribute 👨‍👨‍👧‍👦
 
