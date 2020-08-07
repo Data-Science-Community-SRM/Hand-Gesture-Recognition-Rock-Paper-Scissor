@@ -1,9 +1,9 @@
 # Hand Gesture Recognition and Modification
  
 ## The Model
-- This model _(Model_4_classes.h5)_ has been trained to detect 4 classes of objects: Paper 📜, Rock 🌍 , Scissors ✂ and Nothing(in case of none of them) using transfer learning on the InceptionV3 model till layer ‘mixed7’, followed by a Dense layer with 256 nodes (RelU), and a softmax layer with 4 output nodes using Keras with Tensorflow backend. 
+- This model ([Model_4_classes.h5](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Flask%20app/static/Model_4_classes.h5)) has been trained to detect 4 classes of objects: Paper 📜, Rock 🌍 , Scissors ✂ and Nothing(in case of none of them) using transfer learning on the InceptionV3 model till layer ‘mixed7’, followed by a Dense layer with 256 nodes (RelU), and a softmax layer with 4 output nodes using Keras with Tensorflow backend. 
 
-- It was trained using the RMSprop optimizer with a batch size of 32 for 100 epochs. Input size of the images were (150, 150, 3). The images were rescaled and augmented before training. _(TrainInception_4classes.ipynb)_
+- It was trained using the RMSprop optimizer with a batch size of 32 for 100 epochs. Input size of the images were (150, 150, 3). The images were rescaled and augmented before training. ([TrainInception_4classes.ipynb](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Inception-Model/TrainInception_4classes.ipynb))
 
 - The dataset we used was a combination of images from the [rock-paper-scissors repository by Alessandro Giusti](https://github.com/alessandro-giusti/rock-paper-scissors/tree/master/datasets/final) and photographs clicked by each of our team members, and consisted of 1791 images in the training set and 654 images in the validation set.
 
@@ -11,11 +11,15 @@
 
 - Plot of training and validation accuracy versus the number of epochs:
 
-![Plot of training and validation accuracy versus the number of epochs.](Graphs_Results/accuracy_vs_epochs.png)
+<p align="center">
+  <img src="Graphs_Results/accuracy_vs_epochs.png" alt="Plot of training and validation accuracy versus the number of epochs.">
+</p>
 
 - Plot of training and validation loss versus the number of epochs:
 
-![Plot of training and validation loss versus the number of epochs.](Graphs_Results/loss_vs_epochs.png)
+<p align="center">
+  <img src="Graphs_Results/loss_vs_epochs.png" alt="Plot of training and validation loss versus the number of epochs.">
+</p>
 
 ## Visualizing the model 👀
 
@@ -27,9 +31,6 @@
 
 - The program can be quit by hitting ‘Q’.
 
-**Note**
-- Use the model on a plain background for best results.
-
 - Output:
 <p align="center">
   <img src="Graphs_Results/screen_recording.gif" alt="screen recording of output" width="576" height="324">
@@ -39,22 +40,22 @@
 
 https://rps-streamlit-app.herokuapp.com/
 
-- The h5 weights file of the Inception v3 model has been integrated as a [Streamlit app](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Streamlit%20App/app.py) 
+- The [h5 weights file](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Flask%20app/static/Model_4_classes.h5) of the Inception v3 model has been integrated as a [Streamlit app](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Streamlit%20App/app.py) 
 
-- The Streamlit app was deployed on Heroku PaaS
+- The Streamlit app has been deployed on Heroku PaaS
 
 ## Recognising Rock🌍, Paper📜 and Scissors✂ 
 
 Browse images from your system and try out the image recognition model! 
 
 <p align="center">
-  <img src="Graphs_Results/demo2.png" alt="Web app output #1" width="593" height="598">
+  <img src="Graphs_Results/demo2.png" alt="Web app output #1" width="623" height="628">
 </p>
 <p align="center">
-  <img src="Graphs_Results/demo1.png" alt="Web app output #2" width="593" height="598">
+  <img src="Graphs_Results/demo1.png" alt="Web app output #2" width="623" height="628">
 </p>
 <p align="center">
-  <img src="Graphs_Results/demo3.png" alt="Web app output #3" width="593" height="598">
+  <img src="Graphs_Results/demo3.png" alt="Web app output #3" width="623" height="628">
 </p>
 <p align="center">
   <img src="Graphs_Results/demo4.png" alt="Web app output #4" width="593" height="598">
@@ -88,6 +89,8 @@ For example:
 **Note:**
 
 - The software requirements are listed in the [requirements.txt](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/requirements.txt) file.
+
+- For best results, test the model with a plain background.
 
 ### Pull Requests
 
