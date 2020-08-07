@@ -44,9 +44,9 @@ https://rps-streamlit-app.herokuapp.com/
 
 - Browse images from your system and try out the image recognition model!
 
-<img src="">
-<img src="">
-<img src="">
+<img src="Graphs_Results/demo1.png">
+<img src="Graphs_Results/demo2.png">
+<img src="Graphs_Results/demo3.png">
 
 ## Contribute 👨‍👨‍👧‍👦
 
