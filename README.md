@@ -52,18 +52,38 @@ Plot of training and validation accuracy versus the number of epochs:
 
 - [ ] The program can be quit by hitting ‘Q’.
 
+
+## Instructions to run
+
+* Pre-requisites:
+	- The software requirements are listed in the [requirements.txt](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/requirements.txt) file.
+
+* < directions to install > 
+```bash
+< mkdir -p ~/.streamlit/
+
+echo "\
+[server]\n\
+headless = true\n\
+port = $PORT\n\
+enableCORS = false\n\
+\n\
+" > ~/.streamlit/config.toml >
+```
+
+* < directions to execute >
+
+```bash
+< web: sh setup.sh && streamlit run app.py >
+```
+
+
 ## Contribute 👨‍👨‍👧‍👦
 
 Thanks for taking the time to contribute!
 
 The following is a set of guidelines for contributing to Hand Gesture Recognition and Modification. Please check out the [Contribute.md](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Contribute.md) . These are just guidelines, not rules, so use your best judgement and feel free to propose changes to this document in a pull request.
 If you have any questions, open an issue.
-
-
-
-**Note:**
-
-- The software requirements are listed in the [requirements.txt](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/requirements.txt) file.
 
 ## License
 
