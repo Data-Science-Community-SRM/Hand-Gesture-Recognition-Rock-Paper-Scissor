@@ -50,15 +50,12 @@ Plot of training and validation accuracy versus the number of epochs:
 
 <br>
 
-- [ ] The program can be quit by hitting ‘Q’.
-
-
 ## Instructions to run
 
 * Pre-requisites:
 	- The software requirements are listed in the [requirements.txt](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/requirements.txt) file.
 
-* < directions to install > 
+* Installation
 ```bash
 < mkdir -p ~/.streamlit/
 
@@ -71,12 +68,14 @@ enableCORS = false\n\
 " > ~/.streamlit/config.toml >
 ```
 
-* < directions to execute >
+* Execution
+
+- https://rps-streamlit-app.herokuapp.com/
 
 ```bash
 < web: sh setup.sh && streamlit run app.py >
 ```
-
+- The program can be quit by hitting ‘Q’.
 
 ## Contribute 👨‍👨‍👧‍👦
 
