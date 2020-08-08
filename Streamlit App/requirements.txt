@@ -1,9 +1,0 @@
-tensorflow==2.0.0
-pillow==6.2.0
-numpy==1.16.5
-streamlit==0.62.0
-scikit-learn>=0.18
-matplotlib>=1.4.3
-pandas>=0.19
-keras==2.4.3
-opencv-contrib-python-headless
