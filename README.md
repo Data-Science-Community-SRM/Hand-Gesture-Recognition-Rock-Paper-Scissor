@@ -70,8 +70,9 @@ enableCORS = false\n\
 
 * Execution: 
 
-        - https://rps-streamlit-app.herokuapp.com/
-        - The program can be quit by hitting ‘Q’.
+    - https://rps-streamlit-app.herokuapp.com/
+    - The program can be quit by hitting ‘Q’.
+
 ```bash
 < web: sh setup.sh && streamlit run app.py >
 ```
