@@ -5,55 +5,16 @@
 	<h2 align="center"> Hand Gesture Recognition and Modification </h2>
 	<h4 align="center"> Image classification of Rock🌍,Paper📜 and Scissors✂ hand symbols <h4>
 </p>
+	
+## Preview
 
- 
-## The Model
-- This model ([Model_4_classes.h5](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Flask%20app/static/Model_4_classes.h5)) has been trained to detect 4 classes of objects: Paper 📜, Rock 🌍 , Scissors ✂ and Nothing(in case of none of them) using transfer learning on the InceptionV3 model till layer ‘mixed7’, followed by a Dense layer with 256 nodes (RelU), and a softmax layer with 4 output nodes using Keras with Tensorflow backend. 
-
-- It was trained using the RMSprop optimizer with a batch size of 32 for 100 epochs. Input size of the images were (150, 150, 3). The images were rescaled and augmented before training. ([TrainInception_4classes.ipynb](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Inception-Model/TrainInception_4classes.ipynb))
-
-- The dataset we used was a combination of images from the [rock-paper-scissors repository by Alessandro Giusti](https://github.com/alessandro-giusti/rock-paper-scissors/tree/master/datasets/final) and photographs clicked by each of our team members, and consisted of 1791 images in the training set and 654 images in the validation set.
-
-- The final trained model resulted in an accuracy of 97.05% on the test set with 237 images.
-
-- Plot of training and validation accuracy versus the number of epochs:
-
-<p align="center">
-  <img src="Graphs_Results/accuracy_vs_epochs.png" alt="Plot of training and validation accuracy versus the number of epochs.">
-</p>
-
-- Plot of training and validation loss versus the number of epochs:
-
-<p align="center">
-  <img src="Graphs_Results/loss_vs_epochs.png" alt="Plot of training and validation loss versus the number of epochs.">
-</p>
-
-## Visualizing the model 👀
-
-- The model can be visualized using the file Visualize_4_classes.py.
-
-- Uses OpenCV library and the webcam to do the same.
-
-- Each frame is flipped, resized to 150x150 and then normalized before feeding into the network to make a prediction. 
-
-- The program can be quit by hitting ‘Q’.
 
 - Output:
 <p align="center">
   <img src="Graphs_Results/screen_recording.gif" alt="screen recording of output" width="576" height="324">
 </p>
 
-## Deployment of Hand-Gesture-Recognition model
-
-https://rps-streamlit-app.herokuapp.com/
-
-- The [h5 weights file](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Flask%20app/static/Model_4_classes.h5) of the Inception v3 model has been integrated as a [Streamlit app](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Streamlit%20App/app.py) 
-
-- The Streamlit app has been deployed on Heroku PaaS
-
-## Recognising Rock🌍, Paper📜 and Scissors✂ 
-
-Browse images from your system and try out the image recognition model! 
+- Browse images from your system and try out the image recognition model! 
 
 <p align="center">
   <img src="Graphs_Results/demo2.png" alt="Web app output #1" width="623" height="628">
@@ -67,6 +28,42 @@ Browse images from your system and try out the image recognition model!
 <p align="center">
   <img src="Graphs_Results/demo4.png" alt="Web app output #4" width="593" height="598">
 </p>
+
+## Functionalities
+- [ ]  This model ([Model_4_classes.h5](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Flask%20app/static/Model_4_classes.h5)) has been trained to detect 4 classes of objects: Paper 📜, Rock 🌍 , Scissors ✂ and Nothing(in case of none of them) using transfer learning on the InceptionV3 model till layer ‘mixed7’, followed by a Dense layer with 256 nodes (RelU), and a softmax layer with 4 output nodes using Keras with Tensorflow backend. 
+- [ ]  It was trained using the RMSprop optimizer with a batch size of 32 for 100 epochs. Input size of the images were (150, 150, 3). The images were rescaled and augmented before training. ([TrainInception_4classes.ipynb](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Inception-Model/TrainInception_4classes.ipynb))
+- [ ]  The final trained model resulted in an accuracy of 97.05% on the test set with 237 images.
+- [ ]  Plot of training and validation accuracy versus the number of epochs:
+
+<p align="center">
+  <img src="Graphs_Results/accuracy_vs_epochs.png" alt="Plot of training and validation accuracy versus the number of epochs.">
+</p>
+
+- Plot of training and validation loss versus the number of epochs:
+
+<p align="center">
+  <img src="Graphs_Results/loss_vs_epochs.png" alt="Plot of training and validation loss versus the number of epochs.">
+</p>
+
+<br>
+
+## Visualizing the model 👀
+
+- The model can be visualized using the file Visualize_4_classes.py.
+
+- Uses OpenCV library and the webcam to do the same.
+
+- Each frame is flipped, resized to 150x150 and then normalized before feeding into the network to make a prediction. 
+
+- The program can be quit by hitting ‘Q’.
+
+## Deployment of Hand-Gesture-Recognition model
+
+https://rps-streamlit-app.herokuapp.com/
+
+- The [h5 weights file](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Flask%20app/static/Model_4_classes.h5) of the Inception v3 model has been integrated as a [Streamlit app](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/Streamlit%20App/app.py) 
+
+- The Streamlit app has been deployed on Heroku PaaS
 
 ## Contribute 👨‍👨‍👧‍👦
 
@@ -108,4 +105,10 @@ Pull Requests are always welcome.
 MIT © Data Science Community SRM
 
 This project is licensed under the MIT License - see the [License.md](https://github.com/Data-Science-Community-SRM/hand-gesture-recognition-and-modification/blob/master/License.md) file for details
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+<p align="center">
+	Made with :heart: by <a href="https://dscommunity.in">DS Community SRM</a>
+</p>
 
