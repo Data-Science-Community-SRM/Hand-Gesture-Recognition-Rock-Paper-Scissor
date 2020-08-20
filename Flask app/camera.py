@@ -11,7 +11,7 @@ import numpy as np
 import time
 
 
-model = tf.keras.models.load_model('static\\Model_4_classes.h5')
+model = tf.keras.models.load_model('Model_4_classes.h5')
 
 ds_factor = 0.6
 
@@ -42,7 +42,7 @@ class VideoCamera(object):
         x = np.expand_dims(x, axis=0)
         images = np.vstack([x])
         classes = model.predict(images, batch_size=10)
-        print(classes)
+        #print(classes)
         classes = np.reshape(classes, (4,))
 
         idx = np.argmax(classes)
