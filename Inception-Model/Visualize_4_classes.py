@@ -6,7 +6,7 @@ from keras.preprocessing import image
 cap = cv2.VideoCapture(0)
 class_name = ['Nothing', 'Paper', 'Rock', 'Scissors']
 
-model=tf.keras.models.load_model('/Model_4thclass.h5')
+model=tf.keras.models.load_model('Model_4thclass.h5')
 
 while(cap.isOpened()):
     _, frame = cap.read()
