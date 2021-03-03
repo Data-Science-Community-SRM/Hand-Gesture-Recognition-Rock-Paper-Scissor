@@ -2,7 +2,7 @@
 <a href="https://dscommunity.in">
 	<img src="https://github.com/Data-Science-Community-SRM/template/blob/master/Header.png?raw=true" width=80%/>
 </a>
-	<h2 align="center"> Hand Gesture Recognition and Modification </h2>
+	<h2 align="center"> RPSNet: Hand Gesture Recognition and Modification </h2>
 	<h4 align="center"> Image classification of Rock🌍,Paper📜 and Scissors✂ hand symbols <h4>
 </p>
 	
